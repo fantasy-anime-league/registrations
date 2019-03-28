@@ -1,40 +1,33 @@
-my_str = """Akanesasu Shoujo 37561
-Anima Yell! 37206
-Bakumatsu 37584
-Beelzebub-jou no Okinimesu mama. 37716
-Conception 37823
-Dakaretai Otoko 1-i ni Odosarete Imasu. 37597
-Double Decker! Doug & Kirill 37496
-Gaikotsu Shotenin Honda-san 36317
-Gakuen Basara 37657
-Golden Kamuy 2nd Season 37989
-Gyakuten Saiban: Sono \"Shinjitsu\", Igi Ari! Season 2 37490
-Hangyakusei Million Arthur 37555
-Himote House 36945
-Hinomaruzumou 37007
-Irozuku Sekai no Ashita kara 37497
-Jingai-san no Yome 37992
-Jojo no Kimyou na Bouken: Ougon no Kaze 37991
-Karakuri Circus 37447
-Kaze ga Tsuyoku Fuiteiru 37965
-Kishuku Gakkou no Juliet 37475
-Merc Storia: Mukiryoku no Shounen to Bin no Naka no Shoujo 37232
-Ore ga Suki nano wa Imouto dakedo Imouto ja Nai 36632
-Radiant 37202
-Release the Spyce 37221
-RErideD: Tokigoe no Derrida 35835
-Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai 37450
-Senran Kagura: Shinovi Master - Tokyo Youma-hen 36037
-Sora to Umi no Aida 36000
-SSSS.Gridman 35847
-Tensei shitara Slime Datta Ken 37430
-Toaru Majutsu no Index III 36432
-Tonari no Kyuuketsuki-san 37579
-Tsurune: Kazemai Koukou Kyuudoubu 36653
-Uchi no Maid ga Uzasugiru! 37722
-Ulysses: Jehanne Darc to Renkin no Kishi 36510
-Yagate Kimi ni Naru 37786
-Zombieland Saga 37976"""
+my_str = """Araiya-san!: Ore to Aitsu ga Onnayu de!?	39337
+Bakumatsu: Crisis	38860
+Bokutachi wa Benkyou ga Dekinai	38186
+Carole & Tuesday	37435
+Chou Kadou Girl ⅙: Amazing Stranger	38226
+Diamond no Ace: Act II	38731
+Fairy Gone	39063
+Gunjou no Magmel	37806
+Hachigatsu no Cinderella Nine	38091
+Hangyakusei Million Arthur 2nd Season	38268
+Hitoribocchi no ○○ Seikatsu	37614
+Joshikausei	38295
+Kabukichou Sherlock	38161
+Kenja no Mago	36407
+Kimetsu no Yaiba	38000
+Kono Oto Tomare!	38080
+Kono Yo no Hate de Koi wo Utau Shoujo YU-NO	34620
+Mayonaka no Occult Koumuin	37964
+Midara na Ao-chan wa Benkyou ga Dekinai	38778
+Mix: Meisei Story	38098
+Namu Amida Butsu!: Rendai Utena	38150
+Nande Koko ni Sensei ga!?	38397
+Nobunaga-sensei no Osanazuma	38814
+RobiHachi	38707
+Sarazanmai	37426
+Senryuu Shoujo	38787
+Sewayaki Kitsune no Senko-san	38759
+Shoumetsu Toshi	37952
+World Witches Series: 501-butai Hasshin Shimasu!	38004
+Yatogame-chan Kansatsu Nikki	37940"""
 
 my_dict_str="{"
 for line in my_str.splitlines():
@@ -51,5 +44,10 @@ for line in my_str.splitlines():
     an_id = line[-5:]
     my_new_str += an_id +','
     
-print my_new_str
-    
+#print my_new_str
+
+my_html_str = ""
+for line in my_str.splitlines():
+	an_id = line[-5:]
+	title = line[0:-6]
+	print "<option value='" + an_id + "'>" + title + "</option>"   
