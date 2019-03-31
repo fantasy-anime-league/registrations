@@ -43,7 +43,7 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<option value='38161'>Kabukichou Sherlock</option>
+<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
@@ -76,7 +76,7 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<option value='38161'>Kabukichou Sherlock</option>
+<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
@@ -109,7 +109,7 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<option value='38161'>Kabukichou Sherlock</option>
+<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
@@ -142,7 +142,7 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<option value='38161'>Kabukichou Sherlock</option>
+<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
@@ -175,7 +175,7 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<option value='38161'>Kabukichou Sherlock</option>
+<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
@@ -209,7 +209,7 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<option value='38161'>Kabukichou Sherlock</option>
+<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
@@ -242,7 +242,7 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<option value='38161'>Kabukichou Sherlock</option>
+<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
