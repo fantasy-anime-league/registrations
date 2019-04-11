@@ -56,7 +56,32 @@ $(document).ready(function(){
 				document.getElementById('register_btn').disabled = false;
 			}
     	});
-   	})
+		 })
+	$('#team_code_btn').click(function () {
+		document.getElementById("username_input").disabled = true;
+		document.getElementById("code_btn").disabled = true;
+
+		username = document.getElementById('username_input').value.toLowerCase();
+		if (username == '') {
+			alert('Username cannot be blank.');
+			return;
+		}
+		$.ajax({
+			url: "reg.php?func=get_code&username=" + username,
+			success: function (response) {
+				if (response == 'username invalid') {
+					alert('Username invalid. Please try again.');
+					document.getElementById("username_input").disabled = false;
+					document.getElementById("code_btn").disabled = false;
+					return;
+				}
+				document.getElementById('code').innerHTML = response;
+				document.getElementById('code_div').style.display = 'block';
+				document.getElementById('register_btn').style.display = 'block';
+				document.getElementById('selections_div').style.display = 'block';
+			}
+		})
+	})
 });
 /*
 window.onload = function(){

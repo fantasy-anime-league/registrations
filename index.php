@@ -24,7 +24,7 @@ session_start();
     <br>
     <div id='main' class='container-fluid'>
 
-        <!-- <div class='col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4 col-xl-offset-5 col-xl-2'>
+        <div class='col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4 col-xl-offset-5 col-xl-2'>
             <label>Your MAL Username:</label>
             <input type='text' class='form-control' id='username_input' placeholder='Username'>
             <br>
@@ -287,8 +287,32 @@ session_start();
             <br>
             <br>
             <button id='register_btn' style='display:none' class='btn btn-primary btn-block'>Register Team</button>
-        </div> -->
-        <div class='text-center'>Registration is now closed.</div>
+
+            <div class='text-center'>Registration is now closed.</div>
+            <br>
+            <br>
+            <br>
+
+            <h2 class='text-center' id='subtitle'>Check Your Team</h2>
+            <br>
+            <label>Your MAL Username:</label>
+            <input type='text' class='form-control' id='team_username_input' placeholder='Username'>
+            <br>
+            <button class='btn btn-info btn-block' id='team_code_btn'>Continue</button>
+            <br>
+            <br>
+            <div id='instructions_div'>
+                <hr>
+                <br> Your verification code is:
+                <br>
+                <br><b><code><span id='team_code'></span></code></b>
+                <br>
+                <br>Please copy and paste this code inside the "Location" field on your MAL profile. Once this is done, click the button below to see your team.
+                <br><br>
+                <button class='btn btn-primary btn-block' id='team_btn'>See Team</button>
+            </div>
+            <div id='team_div'></div>
+        </div>
     </div>
 </body>
 
