@@ -11,8 +11,11 @@ files = [f for f in listdir('fal_data') if isfile(join('fal_data', f))]
 for file in files:
 	contents=''
 	with open('fal_data/'+file) as f:
-		for show in f.readlines():
-			contents += show_dict[int(show[:-1])]+'\n'
+		try:
+			for show in f.readlines():
+				contents += show_dict[int(show[:-1])]+'\n'
+		except Exception as e:
+			print(file)
 
 	username = file.split('.txt')[0]
 	try:
@@ -20,15 +23,13 @@ for file in files:
 		formatted_username = re.search(r"<title>\n(.*)&#039;s Profile - MyAnimeList.net\n</title>", page_data).group(1)
 		#print(formatted_username)
 		#print(contents)
-		with open('user_list.txt', 'a') as f:
+		with open('user_list.txt', 'a', encoding='utf-8') as f:
 			f.write("Team: " + formatted_username+'\n'+contents+'\n')
 	except Exception as e:
 		print('ERROR: ' + username + '\n')
-		with open('user_list.txt', 'a') as f:
+		print('Please double check this entry; it may need to be changed manually.')
+		with open('user_list.txt', 'a', encoding='utf-8') as f:
 			f.write(username+'\n'+contents+'\n')
 		pass
-
-	
 		
-
 print (len(files))
