@@ -17,6 +17,7 @@ session_start();
 <script type='text/javascript' src='reg.js'></script>
 </head>
 <body style='margin-bottom:150px'>
+<!--
 <h1 class='text-center' id='title'>FAL Registration</h1>
 <br>
 <div id='main' class='container-fluid'>
@@ -43,7 +44,6 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
@@ -76,7 +76,6 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
@@ -109,7 +108,6 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
@@ -142,7 +140,6 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
@@ -175,7 +172,6 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
@@ -209,7 +205,6 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
@@ -242,7 +237,6 @@ session_start();
 <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
 <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
 <option value='38295'>Joshikausei</option>
-<!--<option value='38161'>Kabukichou Sherlock</option>-->
 <option value='36407'>Kenja no Mago</option>
 <option value='38000'>Kimetsu no Yaiba</option>
 <option value='38080'>Kono Oto Tomare!</option>
@@ -270,10 +264,8 @@ Your verification code is:<br><br><b><code><span id='code'></span></code></b><br
 <br>
 <br>
 <button id='register_btn' style='display:none' class='btn btn-primary btn-block'>Register Team</button>
-</div>
-<!--
+</div> -->
 <div class='text-center'>Registration is now closed.</div>
 </div>
--->
 </body>
 </html>
