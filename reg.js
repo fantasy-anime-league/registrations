@@ -58,10 +58,10 @@ $(document).ready(function(){
     	});
 		 })
 	$('#team_code_btn').click(function () {
-		document.getElementById("username_input").disabled = true;
-		document.getElementById("code_btn").disabled = true;
+		document.getElementById("team_username_input").disabled = true;
+		document.getElementById("team_code_btn").disabled = true;
 
-		username = document.getElementById('username_input').value.toLowerCase();
+		username = document.getElementById('team_username_input').value.toLowerCase();
 		if (username == '') {
 			alert('Username cannot be blank.');
 			return;
@@ -71,16 +71,34 @@ $(document).ready(function(){
 			success: function (response) {
 				if (response == 'username invalid') {
 					alert('Username invalid. Please try again.');
-					document.getElementById("username_input").disabled = false;
-					document.getElementById("code_btn").disabled = false;
+					document.getElementById("team_username_input").disabled = false;
+					document.getElementById("team_code_btn").disabled = false;
 					return;
 				}
-				document.getElementById('code').innerHTML = response;
-				document.getElementById('code_div').style.display = 'block';
-				document.getElementById('register_btn').style.display = 'block';
-				document.getElementById('selections_div').style.display = 'block';
+				document.getElementById('team_code').innerHTML = response;
+				document.getElementById('instructions_div').style.display = 'block';
 			}
 		})
+	})
+	$('#team_btn').click(function () {
+		document.getElementById('team_btn').disabled = true;
+
+		$.ajax({
+			url: 'reg.php?func=get_team&username=' + username,
+			success: function (response) {
+				if (response == 'auth invalid') {
+					alert('Could not validate your username. Please verify that the code was copied correctly.');
+					document.getElementById('team_btn').disabled = false;
+				}
+				else {
+					var ids = response.trim().split(/\s+/);
+					ids.forEach(function (id, index) {
+						document.getElementById('team_' + (index + 1)).innerHTML = show_dict[id];
+					});
+					document.getElementById('team_div').style.display = 'block';
+				}
+			}
+		});
 	})
 });
 /*
