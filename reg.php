@@ -74,7 +74,12 @@
 			//valid otherwise
 			$filename = '../../fal_data/'.$_SESSION['username'].'.txt';
 			$team_info = file_get_contents($filename);
-			echo $team_info;
+			if ($team_info === false) {
+				echo 'user not found';
+			}
+			else {
+				echo $team_info;
+			}
 		}
 		else{
 			echo 'auth invalid';

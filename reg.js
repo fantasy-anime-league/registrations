@@ -90,6 +90,10 @@ $(document).ready(function(){
 					alert('Could not validate your username. Please verify that the code was copied correctly.');
 					document.getElementById('team_btn').disabled = false;
 				}
+				else if (response == 'user not found') {
+					alert("You have not registered for Fantasy Anime League. You don't have a team.");
+					document.getElementById('team_btn').disabled = false;
+				}
 				else {
 					var ids = response.trim().split(/\s+/);
 					ids.forEach(function (id, index) {
