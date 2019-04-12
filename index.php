@@ -301,7 +301,7 @@ session_start();
             <button class='btn btn-info btn-block' id='team_code_btn'>Continue</button>
             <br>
             <br>
-            <div id='instructions_div'>
+            <div id='instructions_div' style='display:none'>
                 <hr>
                 <br> Your verification code is:
                 <br>
@@ -311,7 +311,17 @@ session_start();
                 <br><br>
                 <button class='btn btn-primary btn-block' id='team_btn'>See Team</button>
             </div>
-            <div id='team_div'></div>
+            <div id='team_div' style='display:none'>
+                <h3>Active Team:</h3>
+                <h4 id='team_1'>1</h4>
+                <h4 id='team_2'>2</h4>
+                <h4 id='team_3'>3</h4>
+                <h4 id='team_4'>4</h4>
+                <h4 id='team_5'>5</h4>
+                <h3>Bench Team:</h3>
+                <h4 id='team_6'>6</h4>
+                <h4 id='team_7'>7</h4>
+            </div>
         </div>
     </div>
 </body>
