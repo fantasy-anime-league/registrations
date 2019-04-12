@@ -25,7 +25,7 @@ session_start();
     <div id='main' class='container-fluid'>
 
         <div class='col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4 col-xl-offset-5 col-xl-2'>
-            <label>Your MAL Username:</label>
+            <!-- <label>Your MAL Username:</label>
             <input type='text' class='form-control' id='username_input' placeholder='Username'>
             <br>
             <button class='btn btn-info btn-block' id='code_btn'>Continue</button>
@@ -286,7 +286,7 @@ session_start();
             <br>
             <br>
             <br>
-            <button id='register_btn' style='display:none' class='btn btn-primary btn-block'>Register Team</button>
+            <button id='register_btn' style='display:none' class='btn btn-primary btn-block'>Register Team</button> -->
 
             <div class='text-center'>Registration is now closed.</div>
             <br>
