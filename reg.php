@@ -67,4 +67,23 @@
 			echo 'auth invalid';
 		}
 	}
+	if($_GET['func'] == 'get_team' && isset($_GET['username']) && $_GET['username'] != ''){
+		$url = 'https://myanimelist.net/profile/'.$_SESSION['username'];
+		$usr_page = file_get_contents($url);
+		if (strpos($usr_page, '<span class="user-status-data di-ib fl-r">'.$_SESSION['code']) !== false){
+			//valid otherwise
+			$filename = '../../fal_data/'.$_SESSION['username'].'.txt';
+			$team_info = file_get_contents($filename);
+			if ($team_info === false) {
+				echo 'user not found';
+			}
+			else {
+				echo $team_info;
+			}
+		}
+		else{
+			echo 'auth invalid';
+		}
+		return;
+	}
 ?>
