@@ -364,11 +364,10 @@ session_start();
             <br>
             <button id='register_btn' style='display:none' class='btn btn-primary btn-block'>Register Team</button>
 
-	    <!--
-            <div class='text-center'>Registration is now closed.</div>
+            <!-- <div class='text-center'>Registration is now closed.</div>
             <br>
             <br>
-            <br>
+            <br> -->
 
             <h2 class='text-center' id='subtitle'>Check Your Team</h2>
             <br>
@@ -399,7 +398,6 @@ session_start();
                 <h4 id='team_6'>6</h4>
                 <h4 id='team_7'>7</h4>
             </div>
-        -->
         </div>
     </div>
 </body>
