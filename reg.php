@@ -6,7 +6,8 @@
 		return substr($headers[0], 9, 3);
 	}
 
-	$show_arr = array(39337,38860,38186,37435,38226,38731,39063,37806,38091,38268,37614,38295,38161,36407,38000,38080,34620,37964,38778,38098,38150,38397,38814,38707,37426,38787,38759,37952,38004,37940);
+	$show_arr = array(38670,39590,37403,39959,38572,38328,37525,39195,40004,37379,39523,38390,39811,38084,36587,39030,39570,39468,37972,38276,40196,39567,38889,39196,39701,39539,40178,38483,37522,39506,39491,39355,38529,38659,39940,38331,39799,37393,40254,37268);
+	$restricted_ids = array(39491, 39701, 39940);
 
 	//send in username; create code and echo to caller
 	if($_GET['func'] == 'get_code' && isset($_GET['username']) && $_GET['username'] != ''){
@@ -37,7 +38,13 @@
 		//code found
 		if (strpos($usr_page, '<span class="user-status-data di-ib fl-r">'.$_SESSION['code'].'</span>') !== false){
 			//{0,1,2,3,4,5,6}
-			if (in_array('37991', $json_data) && in_array('36432', $json_data)){ 
+			$num_restricted = 0;
+			for ($i = 0; $i < sizeof($restricted_ids); $i++) {
+				if (in_array(strval($restricted_ids[$i]), $json_data)){
+					$num_restricted = $num_restricted + 1;
+				}
+			}
+			if ($num_restricted > 1) {
 				echo 'invalid restrict';
 				return;
 			}

@@ -25,7 +25,7 @@ session_start();
     <div id='main' class='container-fluid'>
 
         <div class='col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4 col-xl-offset-5 col-xl-2'>
-            <!-- <label>Your MAL Username:</label>
+            <label>Your MAL Username:</label>
             <input type='text' class='form-control' id='username_input' placeholder='Username'>
             <br>
             <button class='btn btn-info btn-block' id='code_btn'>Continue</button>
@@ -37,240 +37,316 @@ session_start();
                 <label>Active Show #1</label>
                 <br />
                 <select class='form-control' id="0">
-                    <option value='39337'>Araiya-san!: Ore to Aitsu ga Onnayu de!?</option>
-                    <option value='38860'>Bakumatsu: Crisis</option>
-                    <option value='38186'>Bokutachi wa Benkyou ga Dekinai</option>
-                    <option value='37435'>Carole & Tuesday</option>
-                    <option value='38226'>Chou Kadou Girl ⅙: Amazing Stranger</option>
-                    <option value='38731'>Diamond no Ace: Act II</option>
-                    <option value='39063'>Fairy Gone</option>
-                    <option value='37806'>Gunjou no Magmel</option>
-                    <option value='38091'>Hachigatsu no Cinderella Nine</option>
-                    <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
-                    <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
-                    <option value='38295'>Joshikausei</option>
-                    <option value='36407'>Kenja no Mago</option>
-                    <option value='38000'>Kimetsu no Yaiba</option>
-                    <option value='38080'>Kono Oto Tomare!</option>
-                    <option value='34620'>Kono Yo no Hate de Koi wo Utau Shoujo YU-NO</option>
-                    <option value='37964'>Mayonaka no Occult Koumuin</option>
-                    <option value='38778'>Midara na Ao-chan wa Benkyou ga Dekinai</option>
-                    <option value='38098'>Mix: Meisei Story</option>
-                    <option value='38150'>Namu Amida Butsu!: Rendai Utena</option>
-                    <option value='38397'>Nande Koko ni Sensei ga!?</option>
-                    <option value='38814'>Nobunaga-sensei no Osanazuma</option>
-                    <option value='38707'>RobiHachi</option>
-                    <option value='37426'>Sarazanmai</option>
-                    <option value='38787'>Senryuu Shoujo</option>
-                    <option value='38759'>Sewayaki Kitsune no Senko-san</option>
-                    <option value='37952'>Shoumetsu Toshi</option>
-                    <option value='38004'>World Witches Series: 501-butai Hasshin Shimasu!</option>
-                    <option value='37940'>Yatogame-chan Kansatsu Nikki</option>
+                    <option value='38670'>Actors: Songs Connection</option>
+                    <option value='39590'>Africa no Salaryman (TV)</option>
+                    <option value='37403'>Ahiru no Sora</option>
+                    <option value='39959'>Ani ni Tsukeru Kusuri wa Nai! 3</option>
+                    <option value='38572'>Assassins Pride</option>
+                    <option value='38328'>Azur Lane</option>
+                    <option value='37525'>Babylon</option>
+                    <option value='39195'>Beastars</option>
+                    <option value='40004'>Bokutachi wa Benkyou ga Dekinai 2</option>
+                    <option value='37379'>Chihayafuru 3</option>
+                    <option value='39523'>Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ik</option>
+                    <option value='38390'>Chuubyou Gekihatsu Boy</option>
+                    <option value='39811'>Fairy Gone 2nd Season</option>
+                    <option value='38084'>Fate/Grand Order: Zettai Majuu Sensen Babylonia</option>
+                    <option value='36587'>Granblue Fantasy The Animation Season 2</option>
+                    <option value='39030'>Hataage! Kemono Michi</option>
+                    <option value='39570'>High Score Girl II</option>
+                    <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
+                    <option value='37972'>Hoshiai no Sora</option>
+                    <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='40196'>Kandagawa Jet Girls</option>
+                    <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
+                    <option value='38889'>Kono Oto Tomare! 2nd Season</option>
+                    <option value='39196'>Mairimashita! Iruma-kun</option>
+                    <option value='39701'>Nanatsu no Taizai: Kamigami no Gekirin</option>
+                    <option value='39539'>No Guns Life</option>
+                    <option value='40178'>Null Peta</option>
+                    <option value='38483'>Ore wo Suki nano wa Omae dake ka yo</option>
+                    <option value='37522'>Pet</option>
+                    <option value='39506'>Phantasy Star Online 2: Episode Oracle</option>
+                    <option value='39491'>Psycho-Pass 3</option>
+                    <option value='39355'>Radiant 2nd Season</option>
+                    <option value='38529'>Rifle Is Beautiful</option>
+                    <option value='38659'>Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru</option>
+                    <option value='39940'>Shokugeki no Souma: Shin no Sara</option>
+                    <option value='38331'>Stand My Heroes: Piece of Truth</option>
+                    <option value='39799'>Val x Love</option>
+                    <option value='37393'>Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!</option>
+                    <option value='40254'>XL Joushi.</option>
+                    <option value='37268'>Z/X: Code Reunion</option>
                 </select>
                 <br />
                 <label>Active Show #2</label>
                 <br />
                 <select class='form-control' id="1">
-                    <option value='39337'>Araiya-san!: Ore to Aitsu ga Onnayu de!?</option>
-                    <option value='38860'>Bakumatsu: Crisis</option>
-                    <option value='38186'>Bokutachi wa Benkyou ga Dekinai</option>
-                    <option value='37435'>Carole & Tuesday</option>
-                    <option value='38226'>Chou Kadou Girl ⅙: Amazing Stranger</option>
-                    <option value='38731'>Diamond no Ace: Act II</option>
-                    <option value='39063'>Fairy Gone</option>
-                    <option value='37806'>Gunjou no Magmel</option>
-                    <option value='38091'>Hachigatsu no Cinderella Nine</option>
-                    <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
-                    <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
-                    <option value='38295'>Joshikausei</option>
-                    <option value='36407'>Kenja no Mago</option>
-                    <option value='38000'>Kimetsu no Yaiba</option>
-                    <option value='38080'>Kono Oto Tomare!</option>
-                    <option value='34620'>Kono Yo no Hate de Koi wo Utau Shoujo YU-NO</option>
-                    <option value='37964'>Mayonaka no Occult Koumuin</option>
-                    <option value='38778'>Midara na Ao-chan wa Benkyou ga Dekinai</option>
-                    <option value='38098'>Mix: Meisei Story</option>
-                    <option value='38150'>Namu Amida Butsu!: Rendai Utena</option>
-                    <option value='38397'>Nande Koko ni Sensei ga!?</option>
-                    <option value='38814'>Nobunaga-sensei no Osanazuma</option>
-                    <option value='38707'>RobiHachi</option>
-                    <option value='37426'>Sarazanmai</option>
-                    <option value='38787'>Senryuu Shoujo</option>
-                    <option value='38759'>Sewayaki Kitsune no Senko-san</option>
-                    <option value='37952'>Shoumetsu Toshi</option>
-                    <option value='38004'>World Witches Series: 501-butai Hasshin Shimasu!</option>
-                    <option value='37940'>Yatogame-chan Kansatsu Nikki</option>
-                </select>
+                    <option value='38670'>Actors: Songs Connection</option>
+                    <option value='39590'>Africa no Salaryman (TV)</option>
+                    <option value='37403'>Ahiru no Sora</option>
+                    <option value='39959'>Ani ni Tsukeru Kusuri wa Nai! 3</option>
+                    <option value='38572'>Assassins Pride</option>
+                    <option value='38328'>Azur Lane</option>
+                    <option value='37525'>Babylon</option>
+                    <option value='39195'>Beastars</option>
+                    <option value='40004'>Bokutachi wa Benkyou ga Dekinai 2</option>
+                    <option value='37379'>Chihayafuru 3</option>
+                    <option value='39523'>Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ik</option>
+                    <option value='38390'>Chuubyou Gekihatsu Boy</option>
+                    <option value='39811'>Fairy Gone 2nd Season</option>
+                    <option value='38084'>Fate/Grand Order: Zettai Majuu Sensen Babylonia</option>
+                    <option value='36587'>Granblue Fantasy The Animation Season 2</option>
+                    <option value='39030'>Hataage! Kemono Michi</option>
+                    <option value='39570'>High Score Girl II</option>
+                    <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
+                    <option value='37972'>Hoshiai no Sora</option>
+                    <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='40196'>Kandagawa Jet Girls</option>
+                    <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
+                    <option value='38889'>Kono Oto Tomare! 2nd Season</option>
+                    <option value='39196'>Mairimashita! Iruma-kun</option>
+                    <option value='39701'>Nanatsu no Taizai: Kamigami no Gekirin</option>
+                    <option value='39539'>No Guns Life</option>
+                    <option value='40178'>Null Peta</option>
+                    <option value='38483'>Ore wo Suki nano wa Omae dake ka yo</option>
+                    <option value='37522'>Pet</option>
+                    <option value='39506'>Phantasy Star Online 2: Episode Oracle</option>
+                    <option value='39491'>Psycho-Pass 3</option>
+                    <option value='39355'>Radiant 2nd Season</option>
+                    <option value='38529'>Rifle Is Beautiful</option>
+                    <option value='38659'>Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru</option>
+                    <option value='39940'>Shokugeki no Souma: Shin no Sara</option>
+                    <option value='38331'>Stand My Heroes: Piece of Truth</option>
+                    <option value='39799'>Val x Love</option>
+                    <option value='37393'>Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!</option>
+                    <option value='40254'>XL Joushi.</option>
+                    <option value='37268'>Z/X: Code Reunion</option>                </select>
                 <br />
                 <label>Active Show #3</label>
                 <br />
                 <select class='form-control' id="2">
-                    <option value='39337'>Araiya-san!: Ore to Aitsu ga Onnayu de!?</option>
-                    <option value='38860'>Bakumatsu: Crisis</option>
-                    <option value='38186'>Bokutachi wa Benkyou ga Dekinai</option>
-                    <option value='37435'>Carole & Tuesday</option>
-                    <option value='38226'>Chou Kadou Girl ⅙: Amazing Stranger</option>
-                    <option value='38731'>Diamond no Ace: Act II</option>
-                    <option value='39063'>Fairy Gone</option>
-                    <option value='37806'>Gunjou no Magmel</option>
-                    <option value='38091'>Hachigatsu no Cinderella Nine</option>
-                    <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
-                    <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
-                    <option value='38295'>Joshikausei</option>
-                    <option value='36407'>Kenja no Mago</option>
-                    <option value='38000'>Kimetsu no Yaiba</option>
-                    <option value='38080'>Kono Oto Tomare!</option>
-                    <option value='34620'>Kono Yo no Hate de Koi wo Utau Shoujo YU-NO</option>
-                    <option value='37964'>Mayonaka no Occult Koumuin</option>
-                    <option value='38778'>Midara na Ao-chan wa Benkyou ga Dekinai</option>
-                    <option value='38098'>Mix: Meisei Story</option>
-                    <option value='38150'>Namu Amida Butsu!: Rendai Utena</option>
-                    <option value='38397'>Nande Koko ni Sensei ga!?</option>
-                    <option value='38814'>Nobunaga-sensei no Osanazuma</option>
-                    <option value='38707'>RobiHachi</option>
-                    <option value='37426'>Sarazanmai</option>
-                    <option value='38787'>Senryuu Shoujo</option>
-                    <option value='38759'>Sewayaki Kitsune no Senko-san</option>
-                    <option value='37952'>Shoumetsu Toshi</option>
-                    <option value='38004'>World Witches Series: 501-butai Hasshin Shimasu!</option>
-                    <option value='37940'>Yatogame-chan Kansatsu Nikki</option>
+                    <option value='38670'>Actors: Songs Connection</option>
+                    <option value='39590'>Africa no Salaryman (TV)</option>
+                    <option value='37403'>Ahiru no Sora</option>
+                    <option value='39959'>Ani ni Tsukeru Kusuri wa Nai! 3</option>
+                    <option value='38572'>Assassins Pride</option>
+                    <option value='38328'>Azur Lane</option>
+                    <option value='37525'>Babylon</option>
+                    <option value='39195'>Beastars</option>
+                    <option value='40004'>Bokutachi wa Benkyou ga Dekinai 2</option>
+                    <option value='37379'>Chihayafuru 3</option>
+                    <option value='39523'>Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ik</option>
+                    <option value='38390'>Chuubyou Gekihatsu Boy</option>
+                    <option value='39811'>Fairy Gone 2nd Season</option>
+                    <option value='38084'>Fate/Grand Order: Zettai Majuu Sensen Babylonia</option>
+                    <option value='36587'>Granblue Fantasy The Animation Season 2</option>
+                    <option value='39030'>Hataage! Kemono Michi</option>
+                    <option value='39570'>High Score Girl II</option>
+                    <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
+                    <option value='37972'>Hoshiai no Sora</option>
+                    <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='40196'>Kandagawa Jet Girls</option>
+                    <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
+                    <option value='38889'>Kono Oto Tomare! 2nd Season</option>
+                    <option value='39196'>Mairimashita! Iruma-kun</option>
+                    <option value='39701'>Nanatsu no Taizai: Kamigami no Gekirin</option>
+                    <option value='39539'>No Guns Life</option>
+                    <option value='40178'>Null Peta</option>
+                    <option value='38483'>Ore wo Suki nano wa Omae dake ka yo</option>
+                    <option value='37522'>Pet</option>
+                    <option value='39506'>Phantasy Star Online 2: Episode Oracle</option>
+                    <option value='39491'>Psycho-Pass 3</option>
+                    <option value='39355'>Radiant 2nd Season</option>
+                    <option value='38529'>Rifle Is Beautiful</option>
+                    <option value='38659'>Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru</option>
+                    <option value='39940'>Shokugeki no Souma: Shin no Sara</option>
+                    <option value='38331'>Stand My Heroes: Piece of Truth</option>
+                    <option value='39799'>Val x Love</option>
+                    <option value='37393'>Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!</option>
+                    <option value='40254'>XL Joushi.</option>
+                    <option value='37268'>Z/X: Code Reunion</option>
                 </select>
                 <br />
                 <label>Active Show #4</label>
                 <br />
                 <select class='form-control' id="3">
-                    <option value='39337'>Araiya-san!: Ore to Aitsu ga Onnayu de!?</option>
-                    <option value='38860'>Bakumatsu: Crisis</option>
-                    <option value='38186'>Bokutachi wa Benkyou ga Dekinai</option>
-                    <option value='37435'>Carole & Tuesday</option>
-                    <option value='38226'>Chou Kadou Girl ⅙: Amazing Stranger</option>
-                    <option value='38731'>Diamond no Ace: Act II</option>
-                    <option value='39063'>Fairy Gone</option>
-                    <option value='37806'>Gunjou no Magmel</option>
-                    <option value='38091'>Hachigatsu no Cinderella Nine</option>
-                    <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
-                    <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
-                    <option value='38295'>Joshikausei</option>
-                    <option value='36407'>Kenja no Mago</option>
-                    <option value='38000'>Kimetsu no Yaiba</option>
-                    <option value='38080'>Kono Oto Tomare!</option>
-                    <option value='34620'>Kono Yo no Hate de Koi wo Utau Shoujo YU-NO</option>
-                    <option value='37964'>Mayonaka no Occult Koumuin</option>
-                    <option value='38778'>Midara na Ao-chan wa Benkyou ga Dekinai</option>
-                    <option value='38098'>Mix: Meisei Story</option>
-                    <option value='38150'>Namu Amida Butsu!: Rendai Utena</option>
-                    <option value='38397'>Nande Koko ni Sensei ga!?</option>
-                    <option value='38814'>Nobunaga-sensei no Osanazuma</option>
-                    <option value='38707'>RobiHachi</option>
-                    <option value='37426'>Sarazanmai</option>
-                    <option value='38787'>Senryuu Shoujo</option>
-                    <option value='38759'>Sewayaki Kitsune no Senko-san</option>
-                    <option value='37952'>Shoumetsu Toshi</option>
-                    <option value='38004'>World Witches Series: 501-butai Hasshin Shimasu!</option>
-                    <option value='37940'>Yatogame-chan Kansatsu Nikki</option>
+                    <option value='38670'>Actors: Songs Connection</option>
+                    <option value='39590'>Africa no Salaryman (TV)</option>
+                    <option value='37403'>Ahiru no Sora</option>
+                    <option value='39959'>Ani ni Tsukeru Kusuri wa Nai! 3</option>
+                    <option value='38572'>Assassins Pride</option>
+                    <option value='38328'>Azur Lane</option>
+                    <option value='37525'>Babylon</option>
+                    <option value='39195'>Beastars</option>
+                    <option value='40004'>Bokutachi wa Benkyou ga Dekinai 2</option>
+                    <option value='37379'>Chihayafuru 3</option>
+                    <option value='39523'>Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ik</option>
+                    <option value='38390'>Chuubyou Gekihatsu Boy</option>
+                    <option value='39811'>Fairy Gone 2nd Season</option>
+                    <option value='38084'>Fate/Grand Order: Zettai Majuu Sensen Babylonia</option>
+                    <option value='36587'>Granblue Fantasy The Animation Season 2</option>
+                    <option value='39030'>Hataage! Kemono Michi</option>
+                    <option value='39570'>High Score Girl II</option>
+                    <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
+                    <option value='37972'>Hoshiai no Sora</option>
+                    <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='40196'>Kandagawa Jet Girls</option>
+                    <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
+                    <option value='38889'>Kono Oto Tomare! 2nd Season</option>
+                    <option value='39196'>Mairimashita! Iruma-kun</option>
+                    <option value='39701'>Nanatsu no Taizai: Kamigami no Gekirin</option>
+                    <option value='39539'>No Guns Life</option>
+                    <option value='40178'>Null Peta</option>
+                    <option value='38483'>Ore wo Suki nano wa Omae dake ka yo</option>
+                    <option value='37522'>Pet</option>
+                    <option value='39506'>Phantasy Star Online 2: Episode Oracle</option>
+                    <option value='39491'>Psycho-Pass 3</option>
+                    <option value='39355'>Radiant 2nd Season</option>
+                    <option value='38529'>Rifle Is Beautiful</option>
+                    <option value='38659'>Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru</option>
+                    <option value='39940'>Shokugeki no Souma: Shin no Sara</option>
+                    <option value='38331'>Stand My Heroes: Piece of Truth</option>
+                    <option value='39799'>Val x Love</option>
+                    <option value='37393'>Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!</option>
+                    <option value='40254'>XL Joushi.</option>
+                    <option value='37268'>Z/X: Code Reunion</option>
                 </select>
                 <br />
                 <label>Active Show #5</label>
                 <br />
                 <select class='form-control' id="4">
-                    <option value='39337'>Araiya-san!: Ore to Aitsu ga Onnayu de!?</option>
-                    <option value='38860'>Bakumatsu: Crisis</option>
-                    <option value='38186'>Bokutachi wa Benkyou ga Dekinai</option>
-                    <option value='37435'>Carole & Tuesday</option>
-                    <option value='38226'>Chou Kadou Girl ⅙: Amazing Stranger</option>
-                    <option value='38731'>Diamond no Ace: Act II</option>
-                    <option value='39063'>Fairy Gone</option>
-                    <option value='37806'>Gunjou no Magmel</option>
-                    <option value='38091'>Hachigatsu no Cinderella Nine</option>
-                    <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
-                    <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
-                    <option value='38295'>Joshikausei</option>
-                    <option value='36407'>Kenja no Mago</option>
-                    <option value='38000'>Kimetsu no Yaiba</option>
-                    <option value='38080'>Kono Oto Tomare!</option>
-                    <option value='34620'>Kono Yo no Hate de Koi wo Utau Shoujo YU-NO</option>
-                    <option value='37964'>Mayonaka no Occult Koumuin</option>
-                    <option value='38778'>Midara na Ao-chan wa Benkyou ga Dekinai</option>
-                    <option value='38098'>Mix: Meisei Story</option>
-                    <option value='38150'>Namu Amida Butsu!: Rendai Utena</option>
-                    <option value='38397'>Nande Koko ni Sensei ga!?</option>
-                    <option value='38814'>Nobunaga-sensei no Osanazuma</option>
-                    <option value='38707'>RobiHachi</option>
-                    <option value='37426'>Sarazanmai</option>
-                    <option value='38787'>Senryuu Shoujo</option>
-                    <option value='38759'>Sewayaki Kitsune no Senko-san</option>
-                    <option value='37952'>Shoumetsu Toshi</option>
-                    <option value='38004'>World Witches Series: 501-butai Hasshin Shimasu!</option>
-                    <option value='37940'>Yatogame-chan Kansatsu Nikki</option>
+                    <option value='38670'>Actors: Songs Connection</option>
+                    <option value='39590'>Africa no Salaryman (TV)</option>
+                    <option value='37403'>Ahiru no Sora</option>
+                    <option value='39959'>Ani ni Tsukeru Kusuri wa Nai! 3</option>
+                    <option value='38572'>Assassins Pride</option>
+                    <option value='38328'>Azur Lane</option>
+                    <option value='37525'>Babylon</option>
+                    <option value='39195'>Beastars</option>
+                    <option value='40004'>Bokutachi wa Benkyou ga Dekinai 2</option>
+                    <option value='37379'>Chihayafuru 3</option>
+                    <option value='39523'>Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ik</option>
+                    <option value='38390'>Chuubyou Gekihatsu Boy</option>
+                    <option value='39811'>Fairy Gone 2nd Season</option>
+                    <option value='38084'>Fate/Grand Order: Zettai Majuu Sensen Babylonia</option>
+                    <option value='36587'>Granblue Fantasy The Animation Season 2</option>
+                    <option value='39030'>Hataage! Kemono Michi</option>
+                    <option value='39570'>High Score Girl II</option>
+                    <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
+                    <option value='37972'>Hoshiai no Sora</option>
+                    <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='40196'>Kandagawa Jet Girls</option>
+                    <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
+                    <option value='38889'>Kono Oto Tomare! 2nd Season</option>
+                    <option value='39196'>Mairimashita! Iruma-kun</option>
+                    <option value='39701'>Nanatsu no Taizai: Kamigami no Gekirin</option>
+                    <option value='39539'>No Guns Life</option>
+                    <option value='40178'>Null Peta</option>
+                    <option value='38483'>Ore wo Suki nano wa Omae dake ka yo</option>
+                    <option value='37522'>Pet</option>
+                    <option value='39506'>Phantasy Star Online 2: Episode Oracle</option>
+                    <option value='39491'>Psycho-Pass 3</option>
+                    <option value='39355'>Radiant 2nd Season</option>
+                    <option value='38529'>Rifle Is Beautiful</option>
+                    <option value='38659'>Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru</option>
+                    <option value='39940'>Shokugeki no Souma: Shin no Sara</option>
+                    <option value='38331'>Stand My Heroes: Piece of Truth</option>
+                    <option value='39799'>Val x Love</option>
+                    <option value='37393'>Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!</option>
+                    <option value='40254'>XL Joushi.</option>
+                    <option value='37268'>Z/X: Code Reunion</option>
                 </select>
                 <br>
                 <br>
                 <label>Bench Show #1</label>
                 <br />
                 <select class='form-control' id="5">
-                    <option value='39337'>Araiya-san!: Ore to Aitsu ga Onnayu de!?</option>
-                    <option value='38860'>Bakumatsu: Crisis</option>
-                    <option value='38186'>Bokutachi wa Benkyou ga Dekinai</option>
-                    <option value='37435'>Carole & Tuesday</option>
-                    <option value='38226'>Chou Kadou Girl ⅙: Amazing Stranger</option>
-                    <option value='38731'>Diamond no Ace: Act II</option>
-                    <option value='39063'>Fairy Gone</option>
-                    <option value='37806'>Gunjou no Magmel</option>
-                    <option value='38091'>Hachigatsu no Cinderella Nine</option>
-                    <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
-                    <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
-                    <option value='38295'>Joshikausei</option>
-                    <option value='36407'>Kenja no Mago</option>
-                    <option value='38000'>Kimetsu no Yaiba</option>
-                    <option value='38080'>Kono Oto Tomare!</option>
-                    <option value='34620'>Kono Yo no Hate de Koi wo Utau Shoujo YU-NO</option>
-                    <option value='37964'>Mayonaka no Occult Koumuin</option>
-                    <option value='38778'>Midara na Ao-chan wa Benkyou ga Dekinai</option>
-                    <option value='38098'>Mix: Meisei Story</option>
-                    <option value='38150'>Namu Amida Butsu!: Rendai Utena</option>
-                    <option value='38397'>Nande Koko ni Sensei ga!?</option>
-                    <option value='38814'>Nobunaga-sensei no Osanazuma</option>
-                    <option value='38707'>RobiHachi</option>
-                    <option value='37426'>Sarazanmai</option>
-                    <option value='38787'>Senryuu Shoujo</option>
-                    <option value='38759'>Sewayaki Kitsune no Senko-san</option>
-                    <option value='37952'>Shoumetsu Toshi</option>
-                    <option value='38004'>World Witches Series: 501-butai Hasshin Shimasu!</option>
-                    <option value='37940'>Yatogame-chan Kansatsu Nikki</option>
+                    <option value='38670'>Actors: Songs Connection</option>
+                    <option value='39590'>Africa no Salaryman (TV)</option>
+                    <option value='37403'>Ahiru no Sora</option>
+                    <option value='39959'>Ani ni Tsukeru Kusuri wa Nai! 3</option>
+                    <option value='38572'>Assassins Pride</option>
+                    <option value='38328'>Azur Lane</option>
+                    <option value='37525'>Babylon</option>
+                    <option value='39195'>Beastars</option>
+                    <option value='40004'>Bokutachi wa Benkyou ga Dekinai 2</option>
+                    <option value='37379'>Chihayafuru 3</option>
+                    <option value='39523'>Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ik</option>
+                    <option value='38390'>Chuubyou Gekihatsu Boy</option>
+                    <option value='39811'>Fairy Gone 2nd Season</option>
+                    <option value='38084'>Fate/Grand Order: Zettai Majuu Sensen Babylonia</option>
+                    <option value='36587'>Granblue Fantasy The Animation Season 2</option>
+                    <option value='39030'>Hataage! Kemono Michi</option>
+                    <option value='39570'>High Score Girl II</option>
+                    <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
+                    <option value='37972'>Hoshiai no Sora</option>
+                    <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='40196'>Kandagawa Jet Girls</option>
+                    <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
+                    <option value='38889'>Kono Oto Tomare! 2nd Season</option>
+                    <option value='39196'>Mairimashita! Iruma-kun</option>
+                    <option value='39701'>Nanatsu no Taizai: Kamigami no Gekirin</option>
+                    <option value='39539'>No Guns Life</option>
+                    <option value='40178'>Null Peta</option>
+                    <option value='38483'>Ore wo Suki nano wa Omae dake ka yo</option>
+                    <option value='37522'>Pet</option>
+                    <option value='39506'>Phantasy Star Online 2: Episode Oracle</option>
+                    <option value='39491'>Psycho-Pass 3</option>
+                    <option value='39355'>Radiant 2nd Season</option>
+                    <option value='38529'>Rifle Is Beautiful</option>
+                    <option value='38659'>Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru</option>
+                    <option value='39940'>Shokugeki no Souma: Shin no Sara</option>
+                    <option value='38331'>Stand My Heroes: Piece of Truth</option>
+                    <option value='39799'>Val x Love</option>
+                    <option value='37393'>Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!</option>
+                    <option value='40254'>XL Joushi.</option>
+                    <option value='37268'>Z/X: Code Reunion</option>
                 </select>
                 <br />
                 <label>Bench Show #2</label>
                 <br />
                 <select class='form-control' id="6">
-                    <option value='39337'>Araiya-san!: Ore to Aitsu ga Onnayu de!?</option>
-                    <option value='38860'>Bakumatsu: Crisis</option>
-                    <option value='38186'>Bokutachi wa Benkyou ga Dekinai</option>
-                    <option value='37435'>Carole & Tuesday</option>
-                    <option value='38226'>Chou Kadou Girl ⅙: Amazing Stranger</option>
-                    <option value='38731'>Diamond no Ace: Act II</option>
-                    <option value='39063'>Fairy Gone</option>
-                    <option value='37806'>Gunjou no Magmel</option>
-                    <option value='38091'>Hachigatsu no Cinderella Nine</option>
-                    <option value='38268'>Hangyakusei Million Arthur 2nd Season</option>
-                    <option value='37614'>Hitoribocchi no 笳銀雷 Seikatsu</option>
-                    <option value='38295'>Joshikausei</option>
-                    <option value='36407'>Kenja no Mago</option>
-                    <option value='38000'>Kimetsu no Yaiba</option>
-                    <option value='38080'>Kono Oto Tomare!</option>
-                    <option value='34620'>Kono Yo no Hate de Koi wo Utau Shoujo YU-NO</option>
-                    <option value='37964'>Mayonaka no Occult Koumuin</option>
-                    <option value='38778'>Midara na Ao-chan wa Benkyou ga Dekinai</option>
-                    <option value='38098'>Mix: Meisei Story</option>
-                    <option value='38150'>Namu Amida Butsu!: Rendai Utena</option>
-                    <option value='38397'>Nande Koko ni Sensei ga!?</option>
-                    <option value='38814'>Nobunaga-sensei no Osanazuma</option>
-                    <option value='38707'>RobiHachi</option>
-                    <option value='37426'>Sarazanmai</option>
-                    <option value='38787'>Senryuu Shoujo</option>
-                    <option value='38759'>Sewayaki Kitsune no Senko-san</option>
-                    <option value='37952'>Shoumetsu Toshi</option>
-                    <option value='38004'>World Witches Series: 501-butai Hasshin Shimasu!</option>
-                    <option value='37940'>Yatogame-chan Kansatsu Nikki</option>
+                    <option value='38670'>Actors: Songs Connection</option>
+                    <option value='39590'>Africa no Salaryman (TV)</option>
+                    <option value='37403'>Ahiru no Sora</option>
+                    <option value='39959'>Ani ni Tsukeru Kusuri wa Nai! 3</option>
+                    <option value='38572'>Assassins Pride</option>
+                    <option value='38328'>Azur Lane</option>
+                    <option value='37525'>Babylon</option>
+                    <option value='39195'>Beastars</option>
+                    <option value='40004'>Bokutachi wa Benkyou ga Dekinai 2</option>
+                    <option value='37379'>Chihayafuru 3</option>
+                    <option value='39523'>Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ik</option>
+                    <option value='38390'>Chuubyou Gekihatsu Boy</option>
+                    <option value='39811'>Fairy Gone 2nd Season</option>
+                    <option value='38084'>Fate/Grand Order: Zettai Majuu Sensen Babylonia</option>
+                    <option value='36587'>Granblue Fantasy The Animation Season 2</option>
+                    <option value='39030'>Hataage! Kemono Michi</option>
+                    <option value='39570'>High Score Girl II</option>
+                    <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
+                    <option value='37972'>Hoshiai no Sora</option>
+                    <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='40196'>Kandagawa Jet Girls</option>
+                    <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
+                    <option value='38889'>Kono Oto Tomare! 2nd Season</option>
+                    <option value='39196'>Mairimashita! Iruma-kun</option>
+                    <option value='39701'>Nanatsu no Taizai: Kamigami no Gekirin</option>
+                    <option value='39539'>No Guns Life</option>
+                    <option value='40178'>Null Peta</option>
+                    <option value='38483'>Ore wo Suki nano wa Omae dake ka yo</option>
+                    <option value='37522'>Pet</option>
+                    <option value='39506'>Phantasy Star Online 2: Episode Oracle</option>
+                    <option value='39491'>Psycho-Pass 3</option>
+                    <option value='39355'>Radiant 2nd Season</option>
+                    <option value='38529'>Rifle Is Beautiful</option>
+                    <option value='38659'>Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru</option>
+                    <option value='39940'>Shokugeki no Souma: Shin no Sara</option>
+                    <option value='38331'>Stand My Heroes: Piece of Truth</option>
+                    <option value='39799'>Val x Love</option>
+                    <option value='37393'>Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!</option>
+                    <option value='40254'>XL Joushi.</option>
+                    <option value='37268'>Z/X: Code Reunion</option>
                 </select>
             </div>
             <br>
@@ -286,12 +362,12 @@ session_start();
             <br>
             <br>
             <br>
-            <button id='register_btn' style='display:none' class='btn btn-primary btn-block'>Register Team</button> -->
+            <button id='register_btn' style='display:none' class='btn btn-primary btn-block'>Register Team</button>
 
-            <div class='text-center'>Registration is now closed.</div>
+            <!-- <div class='text-center'>Registration is now closed.</div>
             <br>
             <br>
-            <br>
+            <br> -->
 
             <h2 class='text-center' id='subtitle'>Check Your Team</h2>
             <br>
