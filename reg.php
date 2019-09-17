@@ -54,7 +54,6 @@
 			}
 			if (array_diff($json_data, $show_arr)){
 				echo 'invalid entry';
-				var_dump(array_diff($json_data, $show_arr));
 				return;
 			}
 			$save_str = '';
