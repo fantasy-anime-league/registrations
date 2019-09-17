@@ -57,6 +57,7 @@ session_start();
                     <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
                     <option value='37972'>Hoshiai no Sora</option>
                     <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='38161'>Kabukichou Sherlock</option>
                     <option value='40196'>Kandagawa Jet Girls</option>
                     <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
                     <option value='38889'>Kono Oto Tomare! 2nd Season</option>
@@ -102,6 +103,7 @@ session_start();
                     <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
                     <option value='37972'>Hoshiai no Sora</option>
                     <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='38161'>Kabukichou Sherlock</option>
                     <option value='40196'>Kandagawa Jet Girls</option>
                     <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
                     <option value='38889'>Kono Oto Tomare! 2nd Season</option>
@@ -146,6 +148,7 @@ session_start();
                     <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
                     <option value='37972'>Hoshiai no Sora</option>
                     <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='38161'>Kabukichou Sherlock</option>
                     <option value='40196'>Kandagawa Jet Girls</option>
                     <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
                     <option value='38889'>Kono Oto Tomare! 2nd Season</option>
@@ -191,6 +194,7 @@ session_start();
                     <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
                     <option value='37972'>Hoshiai no Sora</option>
                     <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='38161'>Kabukichou Sherlock</option>
                     <option value='40196'>Kandagawa Jet Girls</option>
                     <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
                     <option value='38889'>Kono Oto Tomare! 2nd Season</option>
@@ -236,6 +240,7 @@ session_start();
                     <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
                     <option value='37972'>Hoshiai no Sora</option>
                     <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='38161'>Kabukichou Sherlock</option>
                     <option value='40196'>Kandagawa Jet Girls</option>
                     <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
                     <option value='38889'>Kono Oto Tomare! 2nd Season</option>
@@ -282,6 +287,7 @@ session_start();
                     <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
                     <option value='37972'>Hoshiai no Sora</option>
                     <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='38161'>Kabukichou Sherlock</option>
                     <option value='40196'>Kandagawa Jet Girls</option>
                     <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
                     <option value='38889'>Kono Oto Tomare! 2nd Season</option>
@@ -327,6 +333,7 @@ session_start();
                     <option value='39468'>Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh</option>
                     <option value='37972'>Hoshiai no Sora</option>
                     <option value='38276'>Houkago Saikoro Club</option>
+                    <option value='38161'>Kabukichou Sherlock</option>
                     <option value='40196'>Kandagawa Jet Girls</option>
                     <option value='39567'>Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit</option>
                     <option value='38889'>Kono Oto Tomare! 2nd Season</option>
