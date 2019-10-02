@@ -3,8 +3,49 @@ from os.path import isfile, join
 import urllib.request
 import re
 
-show_dict = {39337: "Araiya-san!: Ore to Aitsu ga Onnayu de!?",38860: "Bakumatsu: Crisis",38186: "Bokutachi wa Benkyou ga Dekinai",37435: "Carole & Tuesday",38226: "Chou Kadou Girl ⅙: Amazing Stranger",38731: "Diamond no Ace: Act II",39063: "Fairy Gone",37806: "Gunjou no Magmel",38091: "Hachigatsu no Cinderella Nine",38268: "Hangyakusei Million Arthur 2nd Season",37614: "Hitoribocchi no ○○ Seikatsu",38295: "Joshikausei",38161: "Kabukichou Sherlock",36407: "Kenja no Mago",38000: "Kimetsu no Yaiba",38080: "Kono Oto Tomare!",34620: "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO",37964: "Mayonaka no Occult Koumuin",38778: "Midara na Ao-chan wa Benkyou ga Dekinai",38098: "Mix: Meisei Story",38150: "Namu Amida Butsu!: Rendai Utena",38397: "Nande Koko ni Sensei ga!?",38814: "Nobunaga-sensei no Osanazuma",38707: "RobiHachi",37426: "Sarazanmai",38787: "Senryuu Shoujo",38759: "Sewayaki Kitsune no Senko-san",37952: "Shoumetsu Toshi",38004: "World Witches Series: 501-butai Hasshin Shimasu!",37940: "Yatogame-chan Kansatsu Nikki"}
-
+show_dict = {
+	38670: "Actors: Songs Connection",
+	39590: "Africa no Salaryman (TV)",
+	37403: "Ahiru no Sora",
+	39959: "Ani ni Tsukeru Kusuri wa Nai! 3",
+	38572: "Assassins Pride",
+	38328: "Azur Lane",
+	37525: "Babylon",
+	39195: "Beastars",
+	40004: "Bokutachi wa Benkyou ga Dekinai 2",
+	37379: "Chihayafuru 3",
+	39523: "Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ik",
+	38390: "Chuubyou Gekihatsu Boy",
+	39811: "Fairy Gone 2nd Season",
+	38084: "Fate/Grand Order: Zettai Majuu Sensen Babylonia",
+	36587: "Granblue Fantasy The Animation Season 2",
+	39030: "Hataage! Kemono Michi",
+	39570: "High Score Girl II",
+	39468: "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Sh",
+	37972: "Hoshiai no Sora",
+	38276: "Houkago Saikoro Club",
+	38161: "Kabukichou Sherlock",
+	40196: "Kandagawa Jet Girls",
+	39567: "Keishichou Tokumubu Tokushu Kyouakuhan Taisakushit",
+	38889: "Kono Oto Tomare! 2nd Season",
+	39196: "Mairimashita! Iruma-kun",
+	39701: "Nanatsu no Taizai: Kamigami no Gekirin",
+	39539: "No Guns Life",
+	40178: "Null Peta",
+	38483: "Ore wo Suki nano wa Omae dake ka yo",
+	37522: "Pet",
+	39506: "Phantasy Star Online 2: Episode Oracle",
+	39491: "Psycho-Pass 3",
+	39355: "Radiant 2nd Season",
+	38529: "Rifle Is Beautiful",
+	38659: "Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru",
+	39940: "Shokugeki no Souma: Shin no Sara",
+	38331: "Stand My Heroes: Piece of Truth",
+	39799: "Val x Love",
+	37393: "Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!",
+	40254: "XL Joushi.",
+	37268: "Z/X: Code Reunion"
+}
 
 files = [f for f in listdir('fal_data') if isfile(join('fal_data', f))]
 
@@ -31,5 +72,5 @@ for file in files:
 		with open('user_list.txt', 'a', encoding='utf-8') as f:
 			f.write(username+'\n'+contents+'\n')
 		pass
-		
+
 print (len(files))
